@@ -1,0 +1,40 @@
+# Dependencies and build output
+node_modules/
+dist/
+build/
+.next/
+coverage/
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Private planning state
+private/
+data/private/
+data/receipts/
+data/inventory/
+data/selections/
+data/history/
+*.receipt.*
+
+# Local databases and caches
+*.db
+*.db-shm
+*.db-wal
+.cache/
+.tmp/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
