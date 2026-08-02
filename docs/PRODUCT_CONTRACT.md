@@ -178,6 +178,8 @@ The MVP is accepted only when it demonstrates all of the following with automate
 - native mobile apps before the web workflow proves useful
 - autonomous activation of a weekly plan
 
-## Open operational setting
+## Locked operational schedule
 
-The weekly Discord prompt time remains configurable. It should occur early enough to choose recipes, refresh prices, and approve the packet before the normal shopping and preparation window.
+After the MVP passes acceptance and the private instance is activated, the weekly Discord menu-selection prompt arrives every Thursday at 7:00 PM in the America/Toronto timezone.
+
+The prompt links to the private selector and begins the next-week proposal workflow. It must not start before the app is accepted, and it must not mark a week active merely because the user opened the selector or made four picks.
